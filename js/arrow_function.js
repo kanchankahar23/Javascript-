@@ -24,15 +24,7 @@ hello()
 const hey= () =>{
     console.log("hello")
 }
-hey()
-const print = () =>{
-    console.log("tu kr legi sab ")
-}
-print()
-//we can also without using variable
-// = () =>{
-//     console.log("hey baby");
-// }
+
 
 // implicit arrow function
 const mul = (n1,n2) => n1*n2
