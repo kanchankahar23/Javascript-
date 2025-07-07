@@ -1,5 +1,5 @@
 const user= {
-    name:"kanchan",
+    name:"xyz",
     price:999,
     message:function(){
         console.log(`${this.name} , is a powergirl`);
