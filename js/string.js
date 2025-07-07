@@ -1,7 +1,3 @@
-//concat
-str1= "kanchan";
-str2 = "sachin";
-console.log(str1.concat(str2));
 
 //template laterals
 age = 21;
