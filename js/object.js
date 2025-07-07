@@ -18,10 +18,10 @@ const info ={
 //1. litral method
 // const obj = {}
 const college = {
-    name:"karan",
+    name:"xyz",
     qualilty:"sweet",
     fitness:"10/10",
-    city:"umaria"
+    city:"jaipur"
 }
 // console.log(college.name)
 // console.log(college["fitness"])
@@ -29,7 +29,7 @@ const college = {
 //2. constructor
 
 //modifying and adding 
-college.name = "sachin"
+college.name = "ron"
 console.log(college.name);
 college.city = "jabalpur"
 console.log(college.city)
@@ -81,13 +81,7 @@ person.greeting = function(){
 
 console.log(person.greeting())
 
-// concat an object 
-const sachin = {
-  city : "umaria",
-  looks : "handsome",
-  mind : "intelligent",
-  nature : "sweet"
-}
+
 const kanchan ={
     city:"jabalpur",
     looks:"beautiful",
