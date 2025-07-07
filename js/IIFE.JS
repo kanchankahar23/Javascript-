@@ -8,10 +8,7 @@
     console.log("hey everyone i am kanchan")
 })();
 
-// using arrow function
-(() =>{
-    console.log("kese h ap sab")
-})();
+
 
 // parameter 
 ((name) =>{

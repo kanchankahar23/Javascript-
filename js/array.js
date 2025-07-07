@@ -25,21 +25,7 @@ console.log(arr)
 arr.slice(0,3)
 console.log(arr)
 
-//spread operator = (...) ye object or array ke element ko faila deta h 
-let arr1 = ["koi","computer","le","aao"]
-let arr2 = ["ham","tumse","bahut","pyar","krte","hai"]
-console.log(...arr1,...arr2)
-
-// flat = ye nested array ko faila detaa h agr kahi array ke andar array h to vo usko faila dega 
-let arr3 = ["ham","tumse","bahut",["pyar","krte",["hai"]]]
-console.log(arr3)
-console.log(arr3.flat(Infinity))
 
 
-// isArray = check krta h ki given value array h ya ni 
-console.log(Array.isArray(["bahut","acha"]));
-
-// from = iska use hm string  ya array ko spread krne ke liye krte h 
-console.log(Array.from("kanchan"))
 
 

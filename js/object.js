@@ -29,8 +29,7 @@ const college = {
 //2. constructor
 
 //modifying and adding 
-college.name = "sachin"
-console.log(college.name);
+
 college.city = "jabalpur"
 console.log(college.city)
 
