@@ -30,11 +30,32 @@ let obj = {
 let u1 = Symbol("uid")
 console.log(obj[u1] = "001")
 console.log(obj)
-// bigint = 
+// bigint = 12345567787n
+let b = 349332522342n;
+console.log(b);
+
+console.log(typeof b);
+
 
 
 // 2.non primitive 
 
 // Array[]
+let fruit = ["mango", "apple","kiwi"]
+
+console.log(fruit);
 // Object{}
+
+let Object = {
+    name:"kanchan",
+    age:21
+
+}
+console.log(Object);
 // function()
+
+function greet(){
+    console.log("Namaste world")
+}
+greet()
+console.log(greet())
