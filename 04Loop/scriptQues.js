@@ -75,3 +75,4 @@ if(g % 3 == 0 && g % 5 == 0){
 
 }
 console.log(count)
+
