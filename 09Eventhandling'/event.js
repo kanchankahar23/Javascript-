@@ -36,3 +36,37 @@ input.addEventListener("input", function (e) {
 
 // change
 // change event tab chlta  h jb apka koi input select ya text area me koi change aa jaye 
+let sel = document.querySelector("select");
+sel.addEventListener("change", function (e) {
+    console.log(e.target.value);
+    h1.textContent = ` ${e.target.value} device selected  `
+})
+
+
+
+//////////////////////////////////////////////
+let h2 = document.querySelector("h2");
+window.addEventListener("keydown", function (e) {
+    console.log(e.key);
+    if (e.key === "") {
+        h1.textContent = "spc";
+    }
+    else {
+        h2.textContent = `${e.key}`;
+    }
+
+})
+
+//////////////////////////////////////////
+let div = document.querySelector("#Uploadfile");
+let fileinput = document.querySelector("#fileinput");
+
+div.addEventListener("click",function(){
+fileinput.click();
+})
+
+fileinput.addEventListener("change", function(dets){
+    console.log(dets.target.files[0].name);
+})
+
+//////////////////////////////////////////
