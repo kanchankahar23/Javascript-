@@ -77,4 +77,13 @@ let ul = document.querySelector("ul");
  ul.appendChild(li);
 
 
+// select the first item in a list and delete it from the DOM.
+
 //  create a new image element with a placeholder source and add it at the top of a div
+let image = document.createElement("img");
+image.setAttribute("src","https://unsplash.com/photos/yellow-car-drives-on-winding-road-through-forest-7mwyeUtdmSw");
+div.prepend(image);
+
+
+let listselect = document.querySelector(".ho");
+listselect.remove();
