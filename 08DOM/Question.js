@@ -37,3 +37,44 @@ lists.forEach(function(val){
 let p = document.querySelector("p");
 p.innerHTML = "<b>updated</b>by javascript";
 console.log(p);
+
+// how do you get the src of an image using javascript
+let img =  document.querySelector("img");
+console.log(img.src);
+
+
+// another method
+console.log(img.getAttribute("src"));
+
+
+// add a title attribute
+let div = document.querySelector("div");
+div.setAttribute("tittle", "hello");
+
+
+
+// remove and disable that button
+let signin = document.querySelector(".sign-in");
+signin.removeAttribute("disabled");
+
+
+
+// difference between appendchild() and prepend()
+
+// appendchild() = last me element add krta h 
+// prepend()=  shuruat me element add krta h 
+
+// can you remove an element using removeChild()
+// document.querySelector("div").removeChild(Elementnode 
+// )
+
+
+// create a new list item <li>new task </li> and add it to the end of a <ul>
+
+let ul = document.querySelector("ul");
+ let li = document.createElement("li");
+ li.textContent = "home";
+ ul.appendChild(li);
+
+
+//  create a new image element with a placeholder source and add it at the top of a div
