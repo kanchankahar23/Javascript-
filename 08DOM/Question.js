@@ -92,5 +92,3 @@ listselect.remove();
 // we can also do 
 document.querySelector("ul").removeChild(li)
 
-// add a highlight class to every even item in a list.
-ul.classList.add(".highlight");
