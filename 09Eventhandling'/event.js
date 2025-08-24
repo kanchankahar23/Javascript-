@@ -61,12 +61,19 @@ window.addEventListener("keydown", function (e) {
 let div = document.querySelector("#Uploadfile");
 let fileinput = document.querySelector("#fileinput");
 
-div.addEventListener("click",function(){
-fileinput.click();
+div.addEventListener("click", function () {
+    fileinput.click();
 })
 
-fileinput.addEventListener("change", function(dets){
+fileinput.addEventListener("change", function (dets) {
     console.log(dets.target.files[0].name);
+    const file = dets.target.files[0];
+    if (file) {
+        div.textContent = file.name;
+    }
 })
+
+//for the cancel 
+// we have to use this
 
 //////////////////////////////////////////
