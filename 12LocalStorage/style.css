@@ -44,7 +44,10 @@ body {
   -webkit-mask-size: 100% 100%;
   -webkit-mask-repeat: no-repeat;
 }
-
+h1{
+    display: none;
+    color: white;
+}
 .content {
   position: absolute;
   bottom: 20px;
