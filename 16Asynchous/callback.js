@@ -22,3 +22,5 @@ post(12,function(ele){
     console.log(ele)
 })
 })
+
+// that is called callbackhell
