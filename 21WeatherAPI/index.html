@@ -30,21 +30,24 @@
     </button>
 
     <!-- Weather Card -->
-    <div id="result" class="mt-6 p-6 rounded-xl bg-gray-100 text-gray-700 min-h-[120px] hidden">
+    <div id="result" class="mt-6 p-6 rounded-xl bg-gray-100 text-gray-700 min-h-[120px] hidden ">
       <div class="flex flex-col items-center">
         <!-- Icon -->
         <i id="weatherIcon" data-feather="sun" class="w-12 h-12 text-yellow-500 mb-2"></i>
         
         <!-- City Name -->
-        <h3 id="cityName" class="text-xl font-semibold">City Name</h3>
+        <h3 id="cityName" class="text-xl font-semibold"></h3>
         
         <!-- Temperature -->
-        <p id="temperature" class="text-2xl font-bold text-gray-800">25°C</p>
+        <p id="temperature" class="text-2xl font-bold text-gray-800"></p>
         
         <!-- Condition -->
-        <p id="condition" class="text-gray-600">Sunny</p>
+        <p id="condition" class="text-gray-600"></p>
       </div>
     </div>
+ 
+      <h2 id="error" class="text-red-500 font-bold  hidden p-4">YOU WRITE WRONG CITY!!!</h2>
+
   </div>
 
 </body>
